@@ -55,7 +55,7 @@ os.chdir(saveFolder)
 os.system(f"python.exe ../../get-pip.py")
 print(pth_file)
 append_line_to_file(pth_file,"Lib\site-packages")
-print("write any pip package you want to install, type exit to quit")
+print("write any pip package you want to install, type quit to quit")
 t = input()
 while not t == "quit":
     try:
